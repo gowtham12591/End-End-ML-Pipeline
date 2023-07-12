@@ -28,5 +28,6 @@ Process:
     - To utilize the find_packages create a folder named src and inside that create a file '__init__.py'
     - So whenever the find_packages is called this will automatically check for this source file '__init__.py' and initialize it - This is for pypy package
     - Entire working will be saved under this folder 'src'
-    - 
+9. Now use the command 'pip3 install -r requirements.txt' trigger the setup.py file and install the required files and dependencies
+10. Finally push the entire file to the repository using git add, git commit and git push commands. 
    
