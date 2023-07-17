@@ -1,6 +1,7 @@
 'Full Stack End to End ML Pipeline'
 
 Process:
+Part I:
 1. Create a github repository - Here the name given is End-End-ML-Pipeline
 2. Create a folder in the system under the same name
 3. Open a terminal at that folder or open the vscode at the folder and open a new terminal and then create a virtual environment
@@ -30,4 +31,9 @@ Process:
     - Entire working will be saved under this folder 'src'
 9. Now use the command 'pip3 install -r requirements.txt' trigger the setup.py file and install the required files and dependencies
 10. Finally push the entire file to the repository using git add, git commit and git push commands. 
+
+Part II:
+1. Create a new folder inside the src folder as componenet - This is basically to have all the files which we use it for the entire application (starting from ingestion to deployment)
+2. Create a new folder named pipeline and have the respective pipeline files added to it - This is basically for triggering the files inside the component folder
+3. Create few more files inside src folder for logging, exception handling and utlis for writing any functionality in a common way (eg: we can create a mongodb client for ingesting data from the database, saving the model to the cloud etc)
    
